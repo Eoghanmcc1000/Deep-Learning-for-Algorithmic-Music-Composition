@@ -14,7 +14,9 @@ The project includes:
 -Evaluation framework for generated sequences
 -A simple Markov Chain baseline for comparison
 
+
 ## Repository Structure
+
 
 /GPT_2_Music/  
 ├── gpt.py # Core GPT model
@@ -33,6 +35,7 @@ The project includes:
 │ ├── musicDatasetOriginal/ # Raw MIDI files
 │ ├── musicDatasetSimplified/ # Simplified MIDI
 │ └── musicDatasetSimplified_AddedTiming/ # Simplified with timing
+
 
 
 
