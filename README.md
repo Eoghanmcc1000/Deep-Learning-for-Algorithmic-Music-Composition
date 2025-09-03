@@ -5,13 +5,13 @@ This project transforms MIDI music files into text sequences, augments the datas
 
 ## Project Overview
 The project includes:
-
+''text
 -Preprocessing and augmentation pipeline
 -Several GPT-based model variants
 -Nucleus sampling to increase variety in outputs
 -Evaluation framework for generated sequences
 -A simple Markov Chain baseline for comparison
-
+'''
 ## Repository Structure
 
 ```text
@@ -32,7 +32,7 @@ The project includes:
 │   ├── musicDatasetOriginal/ # Raw MIDI files
 │   ├── musicDatasetSimplified/ # Simplified MIDI
 │   └── musicDatasetSimplified_AddedTiming/ # Simplified with timing
-
+'''
 
 ## Features
 
