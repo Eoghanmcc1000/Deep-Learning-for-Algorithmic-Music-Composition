@@ -32,7 +32,6 @@ The project includes:
 │ ├── musicDatasetSimplified/ # Simplified MIDI
 │ └── musicDatasetSimplified_AddedTiming/ # Simplified with timing
 
-
 ## Features
 
 ### Data Processing & Augmentation
