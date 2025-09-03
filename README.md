@@ -14,11 +14,9 @@ The project includes:
 -Evaluation framework for generated sequences
 -A simple Markov Chain baseline for comparison
 
-
 ## Repository Structure
 
-
-/GPT_2_Music/  
+/GPT_2_Music/
 ├── gpt.py # Core GPT model
 ├── gpt_adj.py # GPT with nucleus sampling
 ├── baseline.py # Markov chain baseline
@@ -30,13 +28,11 @@ The project includes:
 │ ├── final_augment.py # Advanced augmentation
 │ ├── melodyPlay.py # Playback of melodies
 │ ├── added_timing.py # MIDI with timing support
-│ ├── inputMelodies.txt # Original melody dataset
+│ ├── inputMelodies.txt # Original dataset
 │ ├── inputMelodiesAugmented*.txt # Augmented datasets
 │ ├── musicDatasetOriginal/ # Raw MIDI files
 │ ├── musicDatasetSimplified/ # Simplified MIDI
 │ └── musicDatasetSimplified_AddedTiming/ # Simplified with timing
-
-
 
 
 ## Features
