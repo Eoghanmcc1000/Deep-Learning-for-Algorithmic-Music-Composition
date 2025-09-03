@@ -14,23 +14,25 @@ The project includes:
 
 ## Repository Structure
 
+```text
 /GPT_2_Music/
 ├── gpt.py # Core GPT model
 ├── gpt_adj.py # GPT with nucleus sampling
 ├── baseline.py # Markov chain baseline
 ├── evaluate.py # Evaluation metrics
 ├── finalAssignment_musicDataset/
-│ ├── midi2text.py # MIDI → text conversion
-│ ├── extractMelodies.py # Melody extraction from MIDI
-│ ├── augmentMidiTranslations.py # Basic augmentation methods
-│ ├── final_augment.py # Advanced augmentation
-│ ├── melodyPlay.py # Playback of melodies
-│ ├── added_timing.py # MIDI with timing support
-│ ├── inputMelodies.txt # Original dataset
-│ ├── inputMelodiesAugmented*.txt # Augmented datasets
-│ ├── musicDatasetOriginal/ # Raw MIDI files
-│ ├── musicDatasetSimplified/ # Simplified MIDI
-│ └── musicDatasetSimplified_AddedTiming/ # Simplified with timing
+│   ├── midi2text.py # MIDI → text conversion
+│   ├── extractMelodies.py # Melody extraction from MIDI
+│   ├── augmentMidiTranslations.py # Basic augmentation methods
+│   ├── final_augment.py # Advanced augmentation
+│   ├── melodyPlay.py # Playback of melodies
+│   ├── added_timing.py # MIDI with timing support
+│   ├── inputMelodies.txt # Original dataset
+│   ├── inputMelodiesAugmented*.txt # Augmented datasets
+│   ├── musicDatasetOriginal/ # Raw MIDI files
+│   ├── musicDatasetSimplified/ # Simplified MIDI
+│   └── musicDatasetSimplified_AddedTiming/ # Simplified with timing
+
 
 ## Features
 
